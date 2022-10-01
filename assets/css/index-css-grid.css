@@ -213,11 +213,19 @@ nav a:hover {
 
 footer {
   grid-area: footer;
+  background-image: url(..//img/vector-comentarios.png);
+  margin-top: 10rem;
+  color: var(--blanco);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-family: "Marcellus", serif;
+  font-size: 1.2rem;
 }
 
+
 /*Resolución tabletas*/
-@media screen and (min-width: 768px) {
-}
+@media screen and (min-width: 768px) {}
 
 /*Resolución resoluciones medias*/
 @media screen and (min-width: 1024px) {
