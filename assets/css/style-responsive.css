@@ -118,6 +118,76 @@ nav a:hover {
   padding: 0.5rem 1rem;
   font-family: 'Roboto', sans-serif;
 }
+#description {
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+}
+#feature {
+  background-image: url("../img/bg-features.png");
+  background-size: cover;
+  padding-top: 1rem;
+}
+
+.feature-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem;
+  flex-wrap: wrap;
+  gap: 1.5rem 2rem;
+}
+
+#feature h2 {
+  text-align: center;
+  color: var(--blanco);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.box-dark {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box-blue {
+  background-color: #00325eae;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 1rem 1.5rem;
+  color: var(--blanco);
+  border-radius: 3px;
+  font-size: 3rem;
+}
+
+.feature-box h3 {
+  font-size: 1.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 1rem;
+}
+#ubicanos {
+  padding: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#ubicanos iframe{
+  width: 100%;
+  height: 300px;
+}
+.footer {
+  background-image: url(..//img/vector-comentarios.png);
+  margin-top: 10rem;
+  color: var(--blanco);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-family: "Marcellus", serif;
+  font-size: 1.2rem;
+
+}
+
+
+
 
 /*punto de quiebre media querie tableta*/
 @media screen and (min-width: 768px) {}
