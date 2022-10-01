@@ -206,8 +206,10 @@ nav a {
   background-image: url(..//img/vector-comentarios.png);
   margin-top: 10rem;
   color: var(--blanco);
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  padding: 3rem;
-  
+  padding: 2rem;
+  font-family: "Marcellus", serif;
+  font-size: 1.2rem;
+
 }

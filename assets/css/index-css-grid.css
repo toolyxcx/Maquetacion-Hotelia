@@ -154,19 +154,18 @@ nav a:hover {
 
 #feature {
     grid-area: feature;
-    display: grid;
     align-content: center;
     background-image: url(../img/bg-features.png);
     background-size: cover;
     margin-top: 1rem;
-    
+
 }
 
 .feature-row {
     display: flex;
     justify-content: space-around;
     padding: 5rem;
-    
+
 }
 
 #feature h2 {
@@ -200,6 +199,9 @@ nav a:hover {
 
 #ubicacion {
     grid-area: ubicacion;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 #opinion {
